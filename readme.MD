@@ -11,9 +11,9 @@
 
 4. We are also implementing Horizontal Auto scaling because it doesn't have single point 
    of failure.
-   Horizontal scaling :  is a controller that automatically adjusts the number of pod replicas in a deployment, StatefulSet, or other scalable resource based on observed metrics like CPU or memory usage.
+   1. Horizontal scaling :  is a controller that automatically adjusts the number of pod replicas in a deployment, StatefulSet, or other scalable resource based on observed metrics like CPU or memory usage.
 
-   We had done with scaling the PODS based on CPU utilization
+   2. We had done with scaling the PODS based on CPU utilization
    using below conditions we are setting up the Scaling
    ==> Make sure metric server is running
    ==> Mentioning resources, request and limits
