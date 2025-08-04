@@ -15,8 +15,8 @@
 
    2. We had done with scaling the PODS based on CPU utilization
    using below conditions we are setting up the Scaling
-   ==> Make sure metric server is running
-   ==> Mentioning resources, request and limits
+   # Make sure metric server is running
+   # Mentioning resources, request and limits
 
 5. We had implementing Horizontal scaling for below components
     1. Catalogue
