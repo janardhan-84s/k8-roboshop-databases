@@ -5,7 +5,7 @@
 
 2. But actually there is a resource called " Statefulset" especially developed 
    for stateful applications
-
+   
 3. Actually our roboshop project is stateful application.
    But we can treated our application as Stateful to explore this resource
 
@@ -29,3 +29,4 @@
 7. This is the naming reference of Horizontal scaling
 
       kind: HorizontalPodAutoscaler
+      
