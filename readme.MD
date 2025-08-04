@@ -13,12 +13,12 @@
    of failure.
    1. Horizontal scaling :  is a controller that automatically adjusts the number of pod replicas in a deployment, StatefulSet, or other scalable resource based on observed metrics like CPU or memory usage.
 
-   2. We had done with scaling the PODS based on CPU utilization
+5. We had done with scaling the PODS based on CPU utilization
    using below conditions we are setting up the Scaling
-   # Make sure metric server is running
-   # Mentioning resources, request and limits
+   1. Make sure metric server is running
+   2. Mentioning resources, request and limits
 
-5. We had implementing Horizontal scaling for below components
+6. We had implementing Horizontal scaling for below components
     1. Catalogue
     2. shipping
     3. cart
@@ -26,6 +26,6 @@
     5. Payment
     6. user
 
-6. This is the naming reference of Horizontal scaling
+7. This is the naming reference of Horizontal scaling
 
       kind: HorizontalPodAutoscaler
